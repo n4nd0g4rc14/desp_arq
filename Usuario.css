@@ -1,0 +1,158 @@
+.img-topo {
+    position: relative;
+    background-image: url('../assets/img/scaniauser.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    display: flex; /* Adiciona flexbox para centralizar verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: column; /* Ajusta a direção do flexbox para empilhar verticalmente */
+}
+
+.desc,
+.page-name {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.desc {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.8rem;
+    color: #7E8284;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.page-name {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 2.0rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.bv {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.2rem;
+    display: inline-block; /* Permite adicionar margens e borda sem ocupar toda a largura */
+    margin: 20px; /* Margem de 20 pixels em todos os lados */
+    border-bottom: 1px solid rgb(48, 48, 48); /* Linha preta na parte inferior */
+    padding-bottom: 3px; /* Espaçamento abaixo da linha */
+}
+
+.nome,
+.cpf,
+.email,
+.endereco,
+.contato {
+    font-family: 'Epilogue', sans-serif;
+    color: #777777; /* Cor azul marinho */
+    font-size: 1.0rem;
+    margin: 20px; /* Adiciona margem de 20px acima e abaixo de cada elemento */
+}
+
+
+.title{
+    color: var(--cor-primaria);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title-dados{
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.title-veiculo{
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.botao {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #FFBA2E; /* Cor primária */
+    color: white; /* Cor do texto */
+    padding: 8px 16px; /* Preenchimento interno */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+    position: fixed; /* Fixa o botão na tela */
+    right: 20px; /* Distância da borda direita */
+    bottom: 20px; /* Distância da borda inferior */
+    margin-left: 20px; /* Margem à esquerda */
+}
+
+
+.botao:hover {
+    background-color: #111C55; /* Cor mais escura ao passar o mouse */
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+.popup input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.popup button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #111C55;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #FFBA2E;
+}
+
+.popup input {
+    color: #000; /* Cor do texto normal */
+  }
+  
+  .popup input::placeholder {
+    color: #ccc; /* Cor do placeholder */
+  }
+  
+.placa {
+    font-family: 'Arial', sans-serif; /* Usando uma fonte sans-serif */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    background-color: #f0f0f0; /* Cor de fundo */
+    padding: 2px 8px; /* Espaçamento interno */
+    border-radius: 4px; /* Borda arredondada */
+    border: 1px solid #333; /* Borda */
+
+}
+
+.nomeVeiculo {
+    font-family: 'Arial', sans-serif; /* Fonte sans-serif para o nome do veículo */
+    color: #333; /* Cor do texto */
+    font-size: 1.0rem; /* Tamanho da fonte */
+}
